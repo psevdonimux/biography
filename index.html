@@ -1,13 +1,43 @@
-<html id="color">
+<html id="background">
 <script src="Design.js"></script>
+<img id="avatar" src="https://cdn.discordapp.com/avatars/918540800420348005/7dad6ad2912128b2b199030fdf123cc2.png?size=240">
+<div id="text">
+<h1>psevdonimux</h1>
 <p>Вот в чём я разбираюсь:</p>
 <p>ОС: lubuntu, ubuntu, windows.</p>
 <p>Языки: php, html, javascript, css, java, python, bash, bat.</p> 
 <p>Фреймворки: discord-bot-php, mcpe-server.</p>
-<p>Другое: apache2, termux.</p>  
+<p>Другое: apache2, termux.</p>
+</div>  
+<style>
+#avatar{ 
+ position: fixed;
+ margin: auto;
+ border-radius: 120px;
+ transform: scale(2.2);
+ top: 10vh;
+ right: 0;
+ left: 0;
+}
+#text{
+ margin-top: 29vh;
+ text-align: center;
+ font-size: 230%;
+}
+@media (orientation: landscape){
+ #avatar{ 
+ transform: scale(0.85);
+ top: -1vw;
+ }
+ #text{
+ margin-top: 22.5vw; 
+ font-size: 90%;
+}          
+}
+</style>
 <script>
 var design = new Design();
 design.setMode('dark');
-design.cssMode(['color']);
+design.cssMode(['background']);
 </script>
 </html>
