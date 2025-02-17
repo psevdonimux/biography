@@ -1,26 +1,51 @@
 <html id="background">
 <title>psevdonimux - биография</title>
 <meta name="description" content="Коротко обо мне">
-<script src="Design.js"></script>
-<img id="avatar" src="avatar.webp">
+<link rel="icon" href="images/avatar.webp">
+<img id="avatar" src="images/avatar.webp">
 <div id="text">
 <h1>psevdonimux</h1>
+<hr>
+<h2>Обо мне</h2>
 <p>Вот в чём я разбираюсь:</p>
 <p>ОС: lubuntu, ubuntu, windows.</p>
 <p>Языки: php, html, javascript, css, java, python, bash, bat.</p> 
 <p>Фреймворки: discord-bot-php, mcpe-server.</p>
 <p>Другое: apache2, termux.</p>
+<hr>
+<h2>Связь</h2>
+<div id="icons">
+<img src="images/discord.webp" onclick="discord()">
+<a href="https://github.com/psevdonimux">
+<img src="images/github.webp" href="https://github.com/psevdonimux">
+</a>
+</div>
 </div>  
 <style>
+#background{
+ background-color: #323338;
+ color: white;
+}
 #avatar{ 
- position: fixed;
+ position: absolute;
  margin: auto;
- border-radius: 9999px;
+ border-radius: 100%;
  height: 24vh;
  aspect-ratio: 1 / 1;
  top: 3.5vh;
  right: 0;
  left: 0;
+}
+hr{
+ width: 70vw;
+ border-top: 0.3vh solid white;
+}
+#icons img{
+ border-radius: 100%;
+ height: 8vh;
+ aspect-ratio: 1 / 1;
+ margin-right: -2.5vw;
+ margin-top: -2vh;
 }
 #text{
  margin-top: 29vh;
@@ -30,8 +55,16 @@
 @media (orientation: landscape){
  #avatar{ 
  height: 20vw;
- aspect-ratio: 1 / 1;
  }
+hr{
+ width: 70vh;
+ border-top: 0.3vw solid white;
+}
+ #icons img{
+ height: 8vw;
+ margin-right: -2.5vh;
+ margin-top: -2vw;
+}
  #text{
  margin-top: 22.5vw; 
  font-size: 1.5vw;
@@ -39,8 +72,10 @@
 }
 </style>
 <script>
-var design = new Design();
-design.setMode('dark');
-design.cssMode(['background']);
+function discord(){
+ let tag = 'psevdonumux#9688';
+ alert('Тег дискорда скопирован: ' + tag);
+ navigator.clipboard.writeText(tag);
+}
 </script>
 </html>
