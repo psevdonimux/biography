@@ -15,11 +15,9 @@
 <hr>
 <h2>Связь</h2>
 <div id="icons">
-<img src="images/discord.webp" onclick="discord()">
-<a href="https://github.com/psevdonimux">
-<img src="images/github.webp">
-</a>
-</div>
+<img src="images/discord.webp" onclick="discord();">
+<img src="images/github.webp" onclick="openUrl('https://github.com/psevdonimux');">
+<img src="images/4pda.webp" onclick="openUrl('https://4pda.to/forum/index.php?showuser=11306467');">
 </div>  
 <style>
 #background{
@@ -76,6 +74,9 @@ function discord(){
  let tag = 'psevdonumux#9688';
  alert('Тег дискорда скопирован: ' + tag);
  navigator.clipboard.writeText(tag);
+}
+function openUrl(url){
+ location.replace(url);
 }
 </script>
 </html>
