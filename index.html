@@ -1,13 +1,14 @@
 <html id="background">
 <title>psevdonimux - биография</title>
 <meta name="description" content="Коротко обо мне">
+<meta name="viewport" content="user-scalable=no">
 <link rel="icon" href="images/avatar.webp">
 <img id="avatar" src="images/avatar.webp">
 <div id="text">
 <h1>psevdonimux</h1>
 <hr>
 <h2>Обо мне</h2>
-<p>Вот в чём я разбираюсь:</p>
+<span>Вот в чём я разбираюсь:</span>
 <p>ОС: gulubuntu, lubuntu, ubuntu, windows.</p>
 <p>Языки: php, html, javascript, css, java, python, bash, bat.</p> 
 <p>Нейросети: Claude, ChatGPT.</p>
@@ -20,6 +21,7 @@
 <img src="images/github.webp" onclick="openUrl('https://github.com/psevdonimux');">
 <img src="images/4pda.webp" onclick="openUrl('https://4pda.to/forum/index.php?showuser=11306467');">
 </div>  
+</div>
 <style>
 #background{
  background-color: #323338;
@@ -51,11 +53,16 @@ hr{
  text-align: center;
  font-size: 1.8vh;
 }
+#text p{
+ text-align: left;
+ margin-left: 14vw;
+ width: 75vw;
+}
 @media (orientation: landscape){
  #avatar{ 
  height: 20vw;
  }
-hr{
+ hr{
  width: 70vh;
  border-top: 0.3vw solid white;
 }
@@ -67,7 +74,12 @@ hr{
  #text{
  margin-top: 22.5vw; 
  font-size: 1.5vw;
- }          
+ }  
+ #text p{
+  text-align: left;
+  margin-left: 74.5vh;
+  width: 75vh;
+ }  
 }
 </style>
 <script>
@@ -79,5 +91,11 @@ function discord(){
 function openUrl(url){
  location.replace(url);
 }
+document.ondblclick = () => {
+  let background = document.getElementById('background').style;
+  let avatar = document.getElementById('avatar').style;
+ background.filter = background.filter == 'invert(0)' ? 'invert(1)' : 'invert(0)';
+ avatar.filter = avatar.filter == 'invert(0)' ? 'invert(1)' : 'invert(0)';
+};
 </script>
 </html>
