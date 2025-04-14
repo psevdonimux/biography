@@ -2,7 +2,6 @@
 <head>
  <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
-  alert('Вернусь 14.04.2025');
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
    m[i].l=1*new Date();
    for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
@@ -35,10 +34,10 @@
 <hr>
 <h2>Связь</h2>
 <div id="icons">
-<img src="images/discord.webp" onclick="copyTag('psevdonumux#9688');">
+<img src="images/discord.webp" onclick="openUrl('https://discord.gg/JwJn5Qvx');">
 <img src="images/github.webp" onclick="openUrl('https://github.com/psevdonimux');">
 <img src="images/4pda.webp" onclick="openUrl('https://4pda.to/forum/index.php?showuser=11306467');">
-<img src="images/telegram.webp" onclick="copyTag('@psevdonimux_bot');">
+<img src="images/telegram.webp" onclick="openUrl('https://t.me/psevdonimux_bot');">
 </div>  
 </div>
 <style>
@@ -102,10 +101,6 @@ hr{
 }
 </style>
 <script>
-function copyTag(tag){
- alert('Тег скопирован: ' + tag);
- navigator.clipboard.writeText(tag);
-}
 function openUrl(url){
  location.replace(url);
 }
