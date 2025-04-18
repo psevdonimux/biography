@@ -45,7 +45,7 @@ hr{
 }
 #icons img{
  border-radius: 100%;
- height: 8vh;
+ height: 7vh;
  aspect-ratio: 1 / 1;
  margin-right: -2.5vw;
  margin-top: -1vh;
@@ -81,7 +81,7 @@ hr{
   border-top: 0.3vw solid white;
  }
  #icons img{
-  height: 8vw;
+  height: 7vw;
   margin-right: -1.5vh;
   margin-top: -2vw;
  }
