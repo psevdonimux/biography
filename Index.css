@@ -61,6 +61,9 @@ hr{
  width: 76vw;
 }
 @media (orientation: landscape){
+ #background{
+  background-size: 50%;
+ }
  h1{
   font-size: 2rem;
  }
