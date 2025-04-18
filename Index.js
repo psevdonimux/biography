@@ -1,11 +1,5 @@
-function imageSize(){
- document.getElementById('background').style.backgroundSize = `${window.innerWidth}px ${window.innerHeight}px`;
-}
 function openUrl(url){
  location.replace(url);
-}
-document.onresize = () => {
- imageSize();
 }
 document.ondblclick = () => {
  let background = document.getElementById('background').style;
@@ -41,4 +35,3 @@ function attachAllHandlers() {
     descriptions.forEach(item => description(item.id, item.text, item.str));
 }
 attachAllHandlers();
-imageSize();
