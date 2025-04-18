@@ -48,7 +48,7 @@ hr{
  height: 8vh;
  aspect-ratio: 1 / 1;
  margin-right: -2.5vw;
- margin-top: -2vh;
+ margin-top: -1vh;
  background-color: black;
 }
 #text{
@@ -82,7 +82,7 @@ hr{
  }
  #icons img{
   height: 8vw;
-  margin-right: -2.5vh;
+  margin-right: -1.5vh;
   margin-top: -2vw;
  }
  #text{
