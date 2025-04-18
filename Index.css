@@ -1,8 +1,10 @@
 h1{
  font-size: 5rem;
+ background-color: black;
 }
 h2{
  font-size: 3.5rem;
+ background-color: black;
 }
 #heads{
  display: flex;
@@ -23,6 +25,7 @@ h2{
  margin: 2vh 0 0 3vh;
 }
 #background{
+ background-image: url(background.webp);
  background-color: black;
  color: white;
 }
@@ -46,6 +49,7 @@ hr{
  aspect-ratio: 1 / 1;
  margin-right: -2.5vw;
  margin-top: -2vh;
+ background-color: black;
 }
 #text{
  margin-top: 29vh;
@@ -53,6 +57,7 @@ hr{
 }
 #text p{
  text-align: left;
+ background-color: black;
  width: 76vw;
 }
 @media (orientation: landscape){
