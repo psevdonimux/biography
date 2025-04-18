@@ -1,3 +1,9 @@
+h1{
+ font-size: 5rem;
+}
+h2{
+ font-size: 3.5rem;
+}
 #heads{
  display: flex;
  align-items: center;        
@@ -14,7 +20,7 @@
  align-items: center;         
 }
 #info p {
-  margin: 2vh 0 0 3vh;
+ margin: 2vh 0 0 3vh;
 }
 #background{
  background-color: black;
@@ -43,13 +49,19 @@ hr{
 }
 #text{
  margin-top: 29vh;
- font-size: 1.8vh;
+ font-size: 2.4rem;
 }
 #text p{
  text-align: left;
  width: 76vw;
 }
 @media (orientation: landscape){
+ h1{
+  font-size: 2rem;
+ }
+ h2{
+  font-size: 1.4rem;
+ }
  #info p {
   margin: 1.5vw 0 0 2vw;
  }
@@ -67,7 +79,7 @@ hr{
  }
  #text{
   margin-top: 22.5vw; 
-  font-size: 1.5vw;
+  font-size: 0.9rem;
  }  
  #text p{
   text-align: left;
