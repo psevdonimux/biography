@@ -5,6 +5,7 @@ h1{
 h2{
  font-size: 3.5rem;
  background-color: black;
+ z-index: 999;
 }
 #heads{
  display: flex;
