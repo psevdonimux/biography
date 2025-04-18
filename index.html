@@ -1,142 +1,53 @@
 <html id="background">
 <head>
+ <title>psevdonimux - биография</title>
+ <meta name="description" content="Коротко обо мне">
+ <meta name="viewport" content="user-scalable=no">
+ <link rel="icon" href="images/avatar.webp">
+ <link rel="stylesheet" href="Index.css">
  <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();
-   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-   ym(100754558, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true
-   }); 
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/100754558" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+ <script type="text/javascript" >
+  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+  m[i].l=1*new Date();
+  for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+  k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+  (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+  ym(100754558, "init", {
+   clickmap: true,
+   trackLinks: true,
+   accurateTrackBounce: true
+  }); 
+ </script>
+ <noscript><div><img src="https://mc.yandex.ru/watch/100754558" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
 </head>
-<title>psevdonimux - биография</title>
-<meta name="description" content="Коротко обо мне">
-<meta name="viewport" content="user-scalable=no">
-<link rel="icon" href="images/avatar.webp">
-<img id="avatar" src="images/avatar.webp">
-<div id="text">
-<h1>psevdonimux</h1>
-<hr>
-<h2>Обо мне</h2>
-<span>Вот в чём я разбираюсь:</span>
-<p id="OS">ОС: <span  id="gulubuntu">Gulubuntu</span>, <span  id="lubuntu">Lubuntu</span>, <span  id="ubuntu">Ubuntu</span>, <span  id="windows">Windows</span>.</p>
-<p id="LANG">Языки: <span  id="php">PHP</span>, <span  id="html">HTML</span>, <span  id="javascript">JavaScript</span>, <span  id="userscript">Userscript</span>, <span  id="css">CSS</span>, <span  id="java">Java</span>, <span  id="python">Python</span>, <span  id="bash">Bash</span>, <span  id="bat">Bat</span>.</p> 
-<p id="AI">Нейросети: <span  id="claude">Claude</span>, <span  id="chatgpt">ChatGPT</span>.</p>
-<p id="FM">Фреймворки: <span  id="DBP">Discord-Bot-PHP</span>, <span  id="MCPES">MCPE-Server</span>.</p>
-<p>Другое: <span  id="apache2">Apache2</span>, <span  id="termux">Termux</span>.</p>
-<hr>
-<h2>Связь</h2>
-<div id="icons">
-<img src="images/discord.webp" onclick="openUrl('https://discord.gg/JwJn5Qvx');">
-<img src="images/github.webp" onclick="openUrl('https://github.com/psevdonimux');">
-<img src="images/4pda.webp" onclick="openUrl('https://4pda.to/forum/index.php?showuser=11306467');">
-<img src="images/telegram.webp" onclick="openUrl('https://t.me/psevdonimux_bot');">
-</div>  
-</div>
-<style>
-#background{
- background-color: black;
- color: white;
-}
-#avatar{ 
- position: absolute;
- margin: auto;
- border-radius: 100%;
- height: 24vh;
- aspect-ratio: 1 / 1;
- top: 3.5vh;
- right: 0;
- left: 0;
-}
-hr{
- width: 70vw;
- border-top: 0.3vh solid white;
-}
-#icons img{
- border-radius: 100%;
- height: 8vh;
- aspect-ratio: 1 / 1;
- margin-right: -2.5vw;
- margin-top: -2vh;
-}
-#text{
- margin-top: 29vh;
- text-align: center;
- font-size: 1.8vh;
-}
-#text p{
- text-align: left;
- margin-left: 14vw;
- width: 76vw;
-}
-@media (orientation: landscape){
- #avatar{ 
- height: 20vw;
- }
- hr{
- width: 70vh;
- border-top: 0.3vw solid white;
-}
- #icons img{
- height: 8vw;
- margin-right: -2.5vh;
- margin-top: -2vw;
-}
- #text{
- margin-top: 22.5vw; 
- font-size: 1.5vw;
- }  
- #text p{
-  text-align: left;
-  margin-left: 74.5vh;
-  width: 75vh;
- }  
-}
-</style>
-<script>
-function openUrl(url){
- location.replace(url);
-}
-document.ondblclick = () => {
-  let background = document.getElementById('background').style;
-  let avatar = document.getElementById('avatar').style;
- background.filter = background.filter == 'invert(0)' ? 'invert(1)' : 'invert(0)';
- avatar.filter = avatar.filter == 'invert(0)' ? 'invert(1)' : 'invert(0)';
-};
-const descriptions = [
-    {id: 'gulubuntu', text: 'Являюсь автором форка Lubuntu и постепенно довожу дистрибутив до ума', str: 'OS'},
-
-    {id: 'php', text: 'Да я довольно хорошо знаю php тебя это удивляет?', str: 'LANG'},
-    {id: 'html', text: 'С разметкой всё хорошо', str: 'LANG'},
-    {id: 'javascript', text: 'Довольно хорошо владею на том же уровне что и php', str: 'LANG'},
-    {id: 'userscript', text: 'Довольно часто пишу их понятное дело это javascript только на стороне клиента а не сервера', str: 'LANG'},
-    {id: 'css', text: 'Не владею анимацией, но хорошо владею адаптивной вёрсткой!', str: 'LANG'},
-    {id: 'java', text: 'Имею небольшой опыт работы с ним, но знаю основы', str: 'LANG'},
-    {id: 'python', text: 'Наверное, точно так же, как и с java, только душа к нему не лежит', str: 'LANG'},
-    {id: 'bash', text: 'Использую часто в Linux для автоматизаций рутинных действий, а также добавления команд', str: 'LANG'},
-    {id: 'bat', text: 'Использую редко в Windows, так как по душе Linux', str: 'LANG'},
-];
-function clickHandler(id, text, str) {
-    var old = document.getElementById(str).innerHTML;
-    document.getElementById(str).textContent = text;
-    setTimeout(() => {
-        document.getElementById(str).innerHTML = old;
-        attachAllHandlers();
-    }, 3000);
-}
-function description(id, text, str) {
-    document.getElementById(id).onclick = () => clickHandler(id, text, str);
-}
-function attachAllHandlers() {
-    descriptions.forEach(item => description(item.id, item.text, item.str));
-}
-attachAllHandlers();
-</script>
+<body>
+ <img id="avatar" src="images/avatar.webp">
+ <div id="text">
+  <div id="heads">
+   <h1>psevdonimux</h1>
+   <hr>
+   <h2>Обо мне</h2>
+   <span>Вот в чём я разбираюсь:</span>
+  </div>
+  <div id="info">
+   <p id="OS">ОС: <span id="gulubuntu">Gulubuntu</span>, <span id="lubuntu">Lubuntu</span>, <span id="ubuntu">Ubuntu</span>, <span id="windows">Windows</span>.</p>
+   <p id="LANG">Языки: <span id="php">PHP</span>, <span id="html">HTML</span>, <span id="javascript">JavaScript</span>, <span id="userscript">Userscript</span>, <span id="css">CSS</span>, <span id="java">Java</span>, <span id="python">Python</span>, <span id="bash">Bash</span>, <span id="bat">Bat</span>.</p> 
+   <p id="AI">Нейросети: <span id="claude">Claude</span>, <span id="chatgpt">ChatGPT</span>.</p>
+   <p id="FM">Фреймворки: <span id="DBP">Discord-Bot-PHP</span>, <span id="MCPES">MCPE-Server</span>.</p>
+   <p>Другое: <span id="apache2">Apache2</span>, <span id="termux">Termux</span>.</p>
+  </div>
+  <hr>
+  <div id="ends">
+   <h2>Связь</h2>
+   <div id="icons">
+    <img src="images/discord.webp" onclick="openUrl('https://discord.gg/JwJn5Qvx');">
+    <img src="images/github.webp" onclick="openUrl('https://github.com/psevdonimux');">
+    <img src="images/4pda.webp" onclick="openUrl('https://4pda.to/forum/index.php?showuser=11306467');">
+    <img src="images/telegram.webp" onclick="openUrl('https://t.me/psevdonimux_bot');">
+   </div>
+  </div>  
+ </div>
+ <script src="Index.js"></script>
+</body>
 </html>
