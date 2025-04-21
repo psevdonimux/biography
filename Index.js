@@ -1,3 +1,4 @@
+alert('Вернусь: 29.04.2025');
 function openUrl(url){
  location.replace(url);
 }
