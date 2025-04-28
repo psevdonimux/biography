@@ -1,4 +1,3 @@
-alert('Вернусь: 29.04.2025');
 function openUrl(url){
  location.replace(url);
 }
@@ -7,6 +6,7 @@ document.ondblclick = () => {
  let avatar = document.getElementById('avatar').style;
  background.filter = background.filter == 'invert(0)' ? 'invert(1)' : 'invert(0)';
  avatar.filter = avatar.filter == 'invert(0)' ? 'invert(1)' : 'invert(0)';
+ avatar.borderColor = avatar.filter === 'invert(1)' ? 'black' : 'white';
 };
 const descriptions = [
     {id: 'gulubuntu', text: 'Являюсь автором форка Lubuntu и постепенно довожу дистрибутив до ума', str: 'OS'},
