@@ -36,3 +36,7 @@ function attachAllHandlers() {
     descriptions.forEach(item => description(item.id, item.text, item.str));
 }
 attachAllHandlers();
+const img = new Image();
+img.src = 'images/avatar_animation.webp'; 
+img.onload = () => document.getElementById('avatar').src = img.src;
+
