@@ -1,4 +1,10 @@
-@font-face {
+a{
+ -webkit-tap-highlight-color: transparent; 
+ -webkit-touch-callout: none; 
+ -webkit-user-select: none; 
+ text-decoration: none;
+}
+@font-face{
  font-family: 'Lato Semi Bold';
  src: url('fonts/Lato-Semibold.ttf');
  font-weight: normal;
