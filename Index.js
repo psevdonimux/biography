@@ -1,7 +1,4 @@
 alert('Вернусь: 13.05.2025');
-function openUrl(url){
- location.replace(url);
-}
 document.ondblclick = () => {
  let background = document.getElementById('background').style;
  let avatar = document.getElementById('avatar').style;
