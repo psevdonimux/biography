@@ -1,4 +1,3 @@
-alert('Вернусь: 03.06.2025');
 const descriptions = [
  {
   id: 'gulubuntu',
