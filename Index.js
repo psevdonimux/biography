@@ -1,5 +1,4 @@
-const response = await fetch('info.json');
-const descriptions = await response.json();
+var descriptions = [];
 const clickHandler = (id, text, str, timeout) => {
  const old = document.getElementById(str).innerHTML;
  document.getElementById(str).textContent = text;
@@ -10,7 +9,12 @@ const clickHandler = (id, text, str, timeout) => {
 };
 const description = (id, text, str, timeout) => document.getElementById(id).onclick = () => clickHandler(id, text, str, timeout);
 const attachAllHandlers = () => descriptions.forEach(item => description(item.id, item.text, item.str, item.timeout));
-attachAllHandlers();
+const init = async () => {
+ const response = await fetch('info.json');       
+ descriptions = await response.json();   
+ attachAllHandlers();
+};
+init();
 const img = new Image();
 img.src = 'images/avatar_animation.webp'; 
 img.onload = () => document.getElementById('avatar').src = img.src;
