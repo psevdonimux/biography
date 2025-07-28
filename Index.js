@@ -1,4 +1,4 @@
- alert('Вернусь: 28.07.2025');
+
 // alert('Вернусь: 11.08.2025');
 // alert('Вернусь: 25.08.2025');
 // alert('Вернусь: 08.09.2025');
@@ -46,7 +46,7 @@ img.src = 'images/avatar_animation.webp';
 img.onload = () => document.getElementById('avatar').src = img.src;
 const ads = document.getElementById('modalAds');
 const timer = document.getElementById('timer');
-/*ads.showModal();
+ads.showModal();
 let timeLeft = 10;
 timer.textContent = timeLeft;
 const countdown = setInterval(() => {
@@ -56,4 +56,4 @@ const countdown = setInterval(() => {
   clearInterval(countdown);
   ads.close();
  }
-}, 1000);*/
+}, 1000);
