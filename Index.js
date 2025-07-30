@@ -42,7 +42,7 @@ const init = async () => {
 };
 init();
 const img = new Image();
-img.src = 'images/avatar_animation.webp'; 
+img.src = 'images/avatar_animation.gif'; 
 img.onload = () => document.getElementById('avatar').src = img.src;
 const ads = document.getElementById('modalAds');
 const timer = document.getElementById('timer');
