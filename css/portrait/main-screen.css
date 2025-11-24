@@ -1,0 +1,23 @@
+@media(orientation: portrait){
+	#info p{
+		margin: 2vh 0 0 3vh;
+	}
+	#avatar{
+		box-shadow: 0 0 0.5vh 0.25vh #00ff01;
+		border: 0.5vh solid white;
+		height: 24vh;
+	}
+	#icons img{
+		height: 6vh;
+		margin-right: 2vw;
+		margin-top: -1.2vh;
+		box-shadow: 0 0 0.5vh 0.25vh #00ff01;
+	}
+	#text{
+		margin-top: 29vh;
+		font-size: 2.4rem;
+	}
+	#text p{
+		width: 77.5vw;
+	}
+}

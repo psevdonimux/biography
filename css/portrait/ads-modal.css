@@ -1,0 +1,18 @@
+@media(orientation: portrait){
+	#modalAds{
+		position: fixed;
+		flex-direction: column;
+		text-align: center;
+		width: 85vw;
+		height: 43.2vh;
+		z-index: 99999;
+		box-shadow: 0 0 0.5vh 0.25vh #00ff01;
+		border: 0.3vh solid white;
+	}
+	#modalAds p{
+		font-size: 2.4rem;
+	}
+	#modalAds h1{
+		background-color: transparent;
+	}
+}

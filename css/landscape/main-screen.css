@@ -1,0 +1,26 @@
+@media(orientation: landscape){
+	#background{
+		background-size: 50%;
+	}
+	#info p {
+		margin: 1.5vw 0 0 2vw;
+	}
+	#avatar{
+		height: 20vw;
+		border: 0.5vw solid white;
+		box-shadow: 0 0 0.5vw 0.25vw #00ff01;
+	}
+	#icons img{
+		height: 4vw;
+		margin-right: 1vh;
+		margin-top: -1vw;
+		box-shadow: 0 0 0.5vw 0.25vw #00ff01;
+	}
+	#text{
+		margin-top: 22.5vw;
+		font-size: 1.05rem;
+	}
+	#text p{
+		width: 75vh;
+	}
+}
