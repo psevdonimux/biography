@@ -32,3 +32,6 @@ const init = async () => {
 	attachAllHandlers();
 };
 init();
+const img = new Image();
+img.src = 'images/avatar_animation.gif'; 
+img.onload = () => document.getElementById('avatar').src = img.src;
