@@ -74,6 +74,7 @@ body{
 	font-family: 'Lato Semi Bold';
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
+	overflow-x: hidden; 
 }
 span{
 	text-align: center;
@@ -145,4 +146,10 @@ dialog::backdrop{
 	border-radius: 100%;
 	aspect-ratio: 1 / 1;
 	background-color: black;
+}
+#psevdoshop{
+    position: absolute;
+    display: block;
+	background: #00FF00;
+    text-align: center; 
 }

@@ -23,4 +23,11 @@
 	#text p{
 		width: 75vh;
 	}
+	#psevdoshop{    
+		width: 17%;
+    	top: 4.2vw;
+		font-size: 1.05rem;
+    	left: 118vh;
+		transform: rotate(45deg);
+	}
 }
