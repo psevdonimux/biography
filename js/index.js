@@ -1,5 +1,3 @@
-
- alert('Вернусь: 12.01.2026');
 // alert('Вернусь: 26.01.2026');
 // alert('Вернусь: 09.02.2026');
 // alert('Вернусь: 23.02.2026');
@@ -33,6 +31,7 @@ init();
 const img = new Image();
 img.src = 'images/avatar_animation.gif'; 
 img.onload = () => document.getElementById('avatar').src = img.src;
+
 
 
 
