@@ -1,6 +1,6 @@
 # Biography
 
-Персональный сайт-визитка [psevdonimux.ru](https://psevdonimux.ru)
+Персональный сайт-визитка
 
 ## Технологии
 
