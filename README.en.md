@@ -1,3 +1,5 @@
+[Русский](README.md) | [English](README.en.md)
+
 # Biography
 
 Personal portfolio website
